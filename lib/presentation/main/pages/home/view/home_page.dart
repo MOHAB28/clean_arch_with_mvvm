@@ -13,11 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final HomeViewmodel _viewmodel = instance<HomeViewmodel>();
 
-  @override
-  void initState() {
-    _viewmodel.start();
-    super.initState();
-  }
+
   @override
   Widget build(BuildContext context) {
     return const Center(

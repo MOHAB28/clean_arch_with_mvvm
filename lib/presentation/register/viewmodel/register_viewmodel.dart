@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:cla/domain/usecase/register_usecase.dart';
-
 import '../../../app/functions.dart';
 import '../../base/base_view_model.dart';
 import '../../common/freezed_data_classes.dart';
