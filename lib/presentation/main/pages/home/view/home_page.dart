@@ -11,7 +11,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final HomeViewmodel _viewmodel = instance<HomeViewmodel>();
 
 
   @override
